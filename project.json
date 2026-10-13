@@ -1,18 +1,23 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Konijima/project-zomboid-studio/master/pzstudio.schema.json",
-    "title": "Apocalipse-Music-uploads",
-    "authors": [],
-    "workshop": {
-        "visibility": "public",
-        "tags": [
-            "Build 41"
-        ],
-        "excludes": []
-    },
-    "mods": {
-        "Apocalipse-Music-uploads": {
-            "name": "Apocalipse-Music-uploads",
-            "description": ""
-        }
+  "$schema": "https://raw.githubusercontent.com/Konijima/project-zomboid-studio/master/pzstudio.schema.json",
+  "title": "Apocalipse [BR] - Music Uploads",
+  "authors": [],
+  "workshop": {
+    "visibility": "public",
+    "tags": [
+      "Build 42",
+      "Audio",
+      "Multiplayer"
+    ],
+    "excludes": [],
+    "id": 0
+  },
+  "mods": {
+    "Apocalipse-Music-uploads": {
+      "name": "Apocalipse Music Uploads",
+      "require": "Apocalipse-Music-Pack",
+      "versionMin": "42.0.0",
+      "description": "Uploaded songs for the existing Music Pack stations. Requires Apocalipse-Music-Pack."
     }
+  }
 }

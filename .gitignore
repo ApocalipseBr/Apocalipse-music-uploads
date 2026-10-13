@@ -1,0 +1,9 @@
+build/
+node_modules/
+.libraries/
+__pycache__/
+*.pyc
+.radio-framework/
+.music-pack/
+.workshop-tools/
+.legacy-audio-aliases/

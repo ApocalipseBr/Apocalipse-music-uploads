@@ -56,7 +56,7 @@ class ConverterTests(unittest.TestCase):
         self.assertEqual(self.source.read_bytes(), original)
 
     def test_backend_conversion_then_registry_generation(self):
-        registry_path = SCRIPT.parents[1] / "Apocalipse-Music-Pack/tools/generate_amp_registry.py"
+        registry_path = SCRIPT.parents[1] / "Apocalipse-Music-uploads/tools/generate_amp_registry.py"
         registry_spec = importlib.util.spec_from_file_location("amp_pipeline_generator", registry_path)
         registry_generator = importlib.util.module_from_spec(registry_spec)
         registry_spec.loader.exec_module(registry_generator)

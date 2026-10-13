@@ -1,0 +1,7 @@
+name=Apocalipse Music Uploads
+id=Apocalipse-Music-uploads
+author=Hypothetic
+description=Uploaded songs for the existing Music Pack stations. Requires Apocalipse-Music-Pack.
+require=Apocalipse-Music-Pack
+versionMin=42.0.0
+poster=poster.png

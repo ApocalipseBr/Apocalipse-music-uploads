@@ -7,7 +7,7 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MOD_ID = "Apocalipse-Music-Pack"
+MOD_ID = "Apocalipse-Music-uploads"
 
 
 def same_file(left, right):
@@ -45,15 +45,17 @@ def validate(project_root=ROOT, build_root=None):
     source = project_root / MOD_ID
     if not mod.is_dir():
         raise ValueError(f"Missing built mod: {mod}; run npm run build first")
-    if fields(package / "workshop.txt").get("id") != str(config["workshop"]["id"]):
+    built_id = fields(package / "workshop.txt").get("id", "")
+    expected_id = str(config["workshop"]["id"])
+    if built_id != expected_id and not (expected_id == "0" and built_id == ""):
         raise ValueError("Built Workshop ID does not match project.json")
     preview = package / "preview.png"
     if preview.read_bytes()[:8] != b"\x89PNG\r\n\x1a\n" or not same_file(project_root / "workshop/preview.png", preview):
         raise ValueError("Missing or mismatched Workshop preview")
     for metadata in (mod / "mod.info", mod / "42/mod.info"):
         values = fields(metadata)
-        if values.get("id") != MOD_ID or "apocalipsebrradio" not in values.get("require", "").split(","):
-            raise ValueError(f"Missing mod ID or radio dependency: {metadata}")
+        if values.get("id") != MOD_ID or "Apocalipse-Music-Pack" not in values.get("require", "").split(","):
+            raise ValueError(f"Missing mod ID or Music Pack dependency: {metadata}")
         if values.get("versionMin") != "42.0.0":
             raise ValueError(f"Missing Build 42 minimum version: {metadata}")
     errors = []
@@ -79,7 +81,7 @@ def validate(project_root=ROOT, build_root=None):
 def main():
     try:
         mod = validate()
-        env = dict(os.environ, AMP_MUSIC_MOD=str(mod))
+        env = dict(os.environ, AMU_UPLOADS_MOD=str(mod))
         # Execute the actual packaged catalog in both shared-file load orders.
         return subprocess.run(["node", "tests/startup_spec.js"], cwd=ROOT, env=env).returncode
     except (OSError, ValueError, KeyError) as exc:

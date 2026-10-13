@@ -1,3 +1,4 @@
-[h1]project-name[/h1]
+[h1]Apocalipse Music Uploads[/h1]
 
-Mod under development...
+Uploaded music for Apocalipse Music Pack. Requires Apocalipse-Music-Pack and its ApocalipseBRRadio dependency.
+Songs extend the existing 94.2 MHz music station and 94.4 MHz zombie-lure station.

@@ -31,7 +31,7 @@ class BuildIntegrityTests(unittest.TestCase):
         (audio.parent / ".gitkeep").touch()
         metadata = self.source / "42/mod.info"
         metadata.parent.mkdir(parents=True)
-        metadata.write_text(f"id={build.MOD_ID}\nrequire=apocalipsebrradio\nversionMin=42.0.0\n")
+        metadata.write_text(f"id={build.MOD_ID}\nrequire=Apocalipse-Music-Pack\nversionMin=42.0.0\n")
         shutil.copytree(self.source, self.mod, ignore=shutil.ignore_patterns(".gitkeep"))
         (self.mod / "mod.info").write_bytes(metadata.read_bytes())
         (self.package / "workshop.txt").write_text("id=123\n")
@@ -71,7 +71,7 @@ class BuildIntegrityTests(unittest.TestCase):
 
     def test_missing_dependency_or_b42_metadata_fails(self):
         (self.mod / "mod.info").write_text(f"id={build.MOD_ID}\n")
-        with self.assertRaisesRegex(ValueError, "radio dependency"):
+        with self.assertRaisesRegex(ValueError, "Music Pack dependency"):
             self.validate()
 
 

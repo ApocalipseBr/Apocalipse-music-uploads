@@ -10,7 +10,7 @@ if (typeof config.title !== 'string' || !config.title || /[/\\]/.test(config.tit
     || config.title === '.' || config.title === '..') throw new Error('Invalid Workshop title');
 const target = resolve(allowed, config.title);
 const toSource = relative(target, root);
-const fromMod = relative(join(root, 'Apocalipse-Music-Pack'), target);
+const fromMod = relative(join(root, 'Apocalipse-Music-uploads'), target);
 if (dirname(target) !== allowed || target === root
     || (toSource && !toSource.startsWith('..') && !isAbsolute(toSource))
     || (!fromMod.startsWith('..') && !isAbsolute(fromMod))

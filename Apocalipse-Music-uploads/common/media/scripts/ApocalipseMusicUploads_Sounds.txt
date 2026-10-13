@@ -1,0 +1,10 @@
+module Base
+{
+    sound AMU_87FA8B460C914BA8 { category = Vehicle, loop = false, is3D = false, clip { file = media/sound/ApocalipseMusicUploads/Uploads/65612d6f-ab2b-4e11-a937-6a136c877fa9/Eminem - My Darling.ogg, volume = 1.0f, distanceMin = 10, distanceMax = 128, } }
+    sound AMU_875436B32966AE8F { category = Vehicle, loop = false, is3D = false, clip { file = media/sound/ApocalipseMusicUploads/Uploads/965ba389-8a83-46d6-87e1-d3701c9f7c7e/Avenged Sevenfold - Almost Easy.ogg, volume = 1.0f, distanceMin = 10, distanceMax = 128, } }
+    sound AMU_478F3A63D7A42229 { category = Vehicle, loop = false, is3D = false, clip { file = media/sound/ApocalipseMusicUploads/Uploads/c6a20fa7-80e3-4115-aaa2-f1e05f4214a5/Skillex ft Korn - Get Up.ogg, volume = 1.0f, distanceMin = 10, distanceMax = 128, } }
+    sound AMU_7B3ED92971EACC78 { category = Vehicle, loop = false, is3D = false, clip { file = media/sound/ApocalipseMusicUploads/Uploads/fb1e8982-dc0f-4ba3-9a02-853afe0cd181/Moriá Art - Fio Escarlate.ogg, volume = 1.0f, distanceMin = 10, distanceMax = 128, } }
+    sound AMU_35944290A8F52952 { category = Vehicle, loop = false, is3D = false, clip { file = media/sound/ApocalipseMusicUploads/Zomboy - Nuclear (Hands Up) (Camson VIP Refix).ogg, volume = 1.0f, distanceMin = 10, distanceMax = 128, } }
+    sound AMU_811D4C75EC4CAA46 { category = Vehicle, loop = false, is3D = false, clip { file = media/sound/ApocalipseMusicUploads/Zomboy - Organ Donor.ogg, volume = 1.0f, distanceMin = 10, distanceMax = 128, } }
+    sound AMU_646545D6588086B1 { category = Vehicle, loop = false, is3D = false, clip { file = media/sound/ApocalipseMusicUploads/Zomboy - Raptor.ogg, volume = 1.0f, distanceMin = 10, distanceMax = 128, } }
+}

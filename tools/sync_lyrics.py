@@ -20,7 +20,7 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ASSETS = ROOT / "Apocalipse-Music-Pack/common/media/sound/ApocalipseMusic/Assets"
+ASSETS = ROOT / "Apocalipse-Music-uploads/common/media/sound/ApocalipseMusicUploads/Uploads"
 SAMPLES = [
     ("Eminem - My Darling (Relapse).ogg", "Eminem", "My Darling"),
     ("Escape The Fate - This War Is Ours.ogg", "Escape The Fate", "This War Is Ours"),

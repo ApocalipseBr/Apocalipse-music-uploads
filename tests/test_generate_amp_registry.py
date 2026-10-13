@@ -17,7 +17,7 @@ from unittest import mock
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location(
-    "amp_generator", ROOT / "Apocalipse-Music-Pack/tools/generate_amp_registry.py")
+    "amp_generator", ROOT / "Apocalipse-Music-uploads/tools/generate_amp_registry.py")
 generator = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(generator)
 
@@ -69,9 +69,9 @@ class GeneratorTests(unittest.TestCase):
         self.assertEqual(len({entry[0] for entry in entries}), 2)
         for sound, song, media, duration, artist, title, relative in entries:
             digest = hashlib.sha1(relative.encode("utf-8")).hexdigest()
-            self.assertEqual(sound, "AMP_" + digest[:16].upper())
-            self.assertEqual(song, "amp_song_" + digest[:12])
-            self.assertEqual(media, "media/sound/" + relative)
+            self.assertEqual(sound, "AMU_" + digest[:16].upper())
+            self.assertEqual(song, "amu_song_" + digest[:12])
+            self.assertEqual(media, "media/sound/ApocalipseMusicUploads/" + relative)
             self.assertEqual((artist, title), ("Artista", "Canção"))
             self.assertIn(math.ceil(duration), (2,))
         self.track("AAA - Newly added.ogg")
@@ -129,10 +129,11 @@ class GeneratorTests(unittest.TestCase):
         self.assertEqual(self.registry.read_text(), "previous registry")
         self.assertFalse((self.sounds / "AMPAssets").exists())
 
-    def test_empty_library_fails_without_creating_outputs(self):
-        self.assertEqual(self.run_generator()[0], 1)
-        self.assertFalse(self.script.exists())
-        self.assertFalse(self.registry.exists())
+    def test_empty_library_produces_valid_extension_catalog(self):
+        self.assertEqual(self.run_generator()[0], 0)
+        self.assertTrue(self.script.exists())
+        self.assertIn('ApocalipseMusicUploads/AMUBridge', self.registry.read_text())
+        self.assertEqual(self.run_generator("--check")[0], 0)
 
     def test_generation_and_check_are_idempotent(self):
         self.track("Artist - Track.ogg")

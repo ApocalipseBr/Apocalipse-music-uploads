@@ -1,7 +1,7 @@
-name=Apocalipse Music Pack
-id=Apocalipse-Music-Pack
+name=Apocalipse Music Uploads
+id=Apocalipse-Music-uploads
 author=Hypothetic
-description=Music radio catalog and compact synchronized playback protocol. Requires ApocalipseBRRadio. Add songs with the importer.
-require=apocalipsebrradio
+description=Uploaded songs for the existing Music Pack stations. Requires Apocalipse-Music-Pack.
+require=Apocalipse-Music-Pack
 versionMin=42.0.0
 poster=poster.png

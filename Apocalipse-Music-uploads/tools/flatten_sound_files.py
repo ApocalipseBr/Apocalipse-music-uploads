@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 MOD_ROOT = Path(__file__).resolve().parents[1]
-SOUND_ROOT = MOD_ROOT / "common" / "media" / "sound"
+SOUND_ROOT = MOD_ROOT / "common" / "media" / "sound" / "ApocalipseMusicUploads"
 MANIFEST = Path(__file__).resolve().with_name("flatten_sound_manifest.json")
 
 

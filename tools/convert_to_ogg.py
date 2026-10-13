@@ -30,8 +30,8 @@ AUDIO_EXTENSIONS = {
     ".wv", ".amr", ".ac3", ".dts", ".au", ".snd", ".caf", ".mka",
     ".weba", ".mpc", ".tta",
 }
-DEFAULT_ASSET_DIR = (Path(__file__).resolve().parents[1] / "Apocalipse-Music-Pack"
-                     / "common" / "media" / "sound" / "ApocalipseMusic" / "Assets")
+DEFAULT_ASSET_DIR = (Path(__file__).resolve().parents[1] / "Apocalipse-Music-uploads"
+                     / "common" / "media" / "sound" / "ApocalipseMusicUploads" / "Uploads")
 
 
 def audio_files(folder, excluded=None):

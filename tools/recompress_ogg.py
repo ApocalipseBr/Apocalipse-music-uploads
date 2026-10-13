@@ -24,8 +24,8 @@ import tempfile
 from convert_to_ogg import find_ffmpeg, run
 
 
-DEFAULT_SOUND_DIR = (Path(__file__).resolve().parents[1] / "Apocalipse-Music-Pack"
-                     / "common" / "media" / "sound")
+DEFAULT_SOUND_DIR = (Path(__file__).resolve().parents[1] / "Apocalipse-Music-uploads"
+                     / "common" / "media" / "sound" / "ApocalipseMusicUploads")
 
 
 def ogg_files(folder):
