@@ -2,11 +2,43 @@
 require "ApocalipseMusicUploads/AMUBridge"
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_70725e10e9ae",
+    sound = "AMU_70725E10E9AE9999",
+    duration = 206,
+    artist = "Mc Kevin",
+    title = "Bye Tchau",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_91812ec54c67",
+    sound = "AMU_91812EC54C67BC92",
+    duration = 218,
+    artist = "Mc Kelvinho",
+    title = "Tecnologia",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_1f266b756ac0",
+    sound = "AMU_1F266B756AC05C7A",
+    duration = 232,
+    artist = "Mc lele Jp",
+    title = "Ce ta nervosa",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_87fa8b460c91",
     sound = "AMU_87FA8B460C914BA8",
     duration = 321,
     artist = "Eminem",
     title = "My Darling",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_0e9afd6a4771",
+    sound = "AMU_0E9AFD6A47719A65",
+    duration = 133,
+    artist = "Mc Kevin",
+    title = "Bye Bye",
 })
 
 ApocalipseMusicUploads.registerSong({
@@ -18,11 +50,35 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_9fe8d4d6956a",
+    sound = "AMU_9FE8D4D6956A4859",
+    duration = 186,
+    artist = "Adèla",
+    title = "Ain t In LA",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_974c19577010",
+    sound = "AMU_974C195770100045",
+    duration = 389,
+    artist = "Magic Mizrahi",
+    title = "Yesh Li Shir",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_478f3a63d7a4",
     sound = "AMU_478F3A63D7A42229",
     duration = 227,
     artist = "Skillex ft Korn",
     title = "Get Up",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_b8a7bba71afc",
+    sound = "AMU_B8A7BBA71AFCDC58",
+    duration = 136,
+    artist = "Mc Panico",
+    title = "Novinha Sa",
 })
 
 ApocalipseMusicUploads.registerSong({
