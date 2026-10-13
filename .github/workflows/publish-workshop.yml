@@ -1,4 +1,4 @@
-name: Build, validate and publish music pack
+name: Build, validate and publish music uploads
 
 on:
   workflow_call:
@@ -40,6 +40,7 @@ jobs:
       tools-sha: ${{ steps.tools.outputs.sha }}
     env:
       ABR_RADIO_MOD: ${{ github.workspace }}/.workshop-tools/Contents/mods/ApocalipseBRRadio
+      AMP_MUSIC_MOD: ${{ github.workspace }}/.music-pack/Apocalipse-Music-Pack
     steps:
       - name: Check out mod source
         uses: actions/checkout@v4
@@ -58,6 +59,15 @@ jobs:
       - name: Record tested framework and publishing tools commit
         id: tools
         run: echo "sha=$(git -C .workshop-tools rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Check out Music Pack Lua dependency for integration tests
+        uses: actions/checkout@v4
+        with:
+          repository: ApocalipseBr/Apocalipse-Music-Pack
+          ref: master
+          path: .music-pack
+          lfs: false
+          submodules: false
+          persist-credentials: false
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -162,12 +172,19 @@ jobs:
           fi
           docker build -t pz-workshop-publisher .workshop-tools/docker/workshop
           python3 .workshop-tools/scripts/workshop/run_publisher.py
-      - name: Request server restart after successful Steam publish
-        if: always() && !cancelled() && steps.steam.outputs.publication == 'confirmed'
+      - name: Request server restart after confirmed or unconfirmed Steam upload
+        if: always() && !cancelled() && (steps.steam.outputs.publication == 'confirmed' || steps.steam.outputs.publication == 'unconfirmed')
         env:
           PZMANAGER_RESTART_URL: ${{ secrets.PZMANAGER_RESTART_URL }}
           PZMANAGER_MOD_UPDATE_TOKEN: ${{ secrets.PZMANAGER_MOD_UPDATE_TOKEN }}
-        run: python3 .workshop-tools/scripts/workshop/request_restart.py
+          PUBLICATION_STATUS: ${{ steps.steam.outputs.publication }}
+        run: |
+          set -euo pipefail
+          if [[ "$PUBLICATION_STATUS" == 'unconfirmed' ]]; then
+            echo "Upload confirmation unavailable; uploads workflow will request a restart despite the shared publisher's skip message."
+          fi
+          python3 .workshop-tools/scripts/workshop/request_restart.py
+          echo "Server restart requested for $PUBLICATION_STATUS Workshop publication." >> "$GITHUB_STEP_SUMMARY"
       - name: Remove session data and staged files
         if: always()
         run: |

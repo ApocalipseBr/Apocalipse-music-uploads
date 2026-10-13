@@ -1,4 +1,4 @@
-name: Music pack CI and Steam Workshop
+name: Music uploads CI and Steam Workshop
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
   workshop:
     uses: ./.github/workflows/publish-workshop.yml
     with:
-      workshop-id: '3814875472'
+      workshop-id: '3819234667'
       # Includes lure-station validation/behavior and the persistent Steam runner.
       radio-ref: '4d0ac709396101ea078f05aee7afc7f567277458'
     secrets:

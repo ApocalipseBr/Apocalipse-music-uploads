@@ -47,7 +47,10 @@ Python tests cover conversion, generation, real uploaded audio and build
 integrity. Lua tests load the actual Music Pack and Radio framework, test both
 station playlists, metadata, duplicate rejection, load order, and client/server/
 single-player startup. Set `AMP_MUSIC_MOD` and `ABR_RADIO_MOD` to dependency mod
-roots outside the default local Windows paths. `AMU_UPLOADS_MOD` selects the
+roots when using other dependency checkouts. The Node test runner also detects
+the workflow's `.workshop-tools` / `.music-pack` directories and the local sibling
+Music Pack checkout, and reports a missing dependency before starting Lua.
+`AMU_UPLOADS_MOD` selects the
 uploads source or packaged mod for startup checks.
 
 CI checks out only this repository's audio via LFS. It loads Music Pack's Lua
@@ -56,10 +59,15 @@ needed locally for integration tests. Build output is
 `build/Apocalipse [BR] - Music Uploads`; `PZ_BUILD_ROOT` can choose another output
 root without changing global PZ Studio settings.
 
-The scaffold CI tests and builds only. `project.json` has Workshop ID `0` as an
-unpublished placeholder. Configure a separate uploads Workshop item before
-adding deployment; never use Music Pack's item ID. Backend upload orchestration
-is outside this repository scaffold.
+The reusable publishing workflow tests, builds, and stages this uploads mod,
+then uses the shared Radio publisher on the local worker for master runs.
+Its caller and `project.json` target the uploads Workshop item `3819234667`.
+The uploads workflow requests a server restart for both `confirmed` and
+`unconfirmed` upload outcomes, overriding the shared publisher's default skip
+message for unconfirmed publication. Explicit upload failures and cancelled
+workflows do not request a restart. A session-backup failure after either upload
+outcome does not suppress the restart request.
+Backend upload orchestration is handled separately.
 
 The initial local commit's Ogg files were migrated to LFS before configuring
 `origin` as `https://github.com/ApocalipseBr/Apocalipse-music-uploads`.

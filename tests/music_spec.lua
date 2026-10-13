@@ -1,8 +1,6 @@
 -- Use the real parent catalog and framework; uploads own neither stations nor talks.
-local radio = os.getenv("ABR_RADIO_MOD") or
-    "C:/Users/ricar/Zomboid/Workshop/ApocalipseBRRadio/Contents/mods/ApocalipseBRRadio"
-local pack = os.getenv("AMP_MUSIC_MOD") or
-    "Z:/git/Github/Apocalipse-Music-Pack/Apocalipse-Music-Pack"
+local radio = assert(os.getenv("ABR_RADIO_MOD"), "Test runner must supply the Radio mod root")
+local pack = assert(os.getenv("AMP_MUSIC_MOD"), "Test runner must supply the Music Pack mod root")
 local uploads = os.getenv("AMU_UPLOADS_MOD") or "Apocalipse-Music-uploads"
 package.path = uploads .. "/common/media/lua/shared/?.lua;"
     .. pack .. "/common/media/lua/shared/?.lua;"
