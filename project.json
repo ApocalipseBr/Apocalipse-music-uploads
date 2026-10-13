@@ -4,13 +4,13 @@
   "authors": [],
   "workshop": {
     "visibility": "public",
+    "id": 3819234667,
     "tags": [
       "Build 42",
       "Audio",
       "Multiplayer"
     ],
-    "excludes": [],
-    "id": 0
+    "excludes": []
   },
   "mods": {
     "Apocalipse-Music-uploads": {
