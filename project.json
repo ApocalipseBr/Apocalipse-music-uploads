@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Konijima/project-zomboid-studio/master/pzstudio.schema.json",
+    "title": "Apocalipse-Music-uploads",
+    "authors": [],
+    "workshop": {
+        "visibility": "public",
+        "tags": [
+            "Build 41"
+        ],
+        "excludes": []
+    },
+    "mods": {
+        "Apocalipse-Music-uploads": {
+            "name": "Apocalipse-Music-uploads",
+            "description": ""
+        }
+    }
+}

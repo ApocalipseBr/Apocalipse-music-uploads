@@ -1,0 +1,652 @@
+{
+  "audio": "Z:\\git\\Github\\Apocalipse-Music-Pack\\Apocalipse-Music-Pack\\common\\media\\sound\\ApocalipseMusic\\Assets\\Escape The Fate - This War Is Ours.ogg",
+  "audio_duration": 356.256,
+  "interval": {
+    "start": 45.0,
+    "end": 90.0
+  },
+  "model": "small.en",
+  "language": "en",
+  "vad": false,
+  "device": "cpu",
+  "processing_seconds_including_model_load": 7.271392200000264,
+  "accuracy_verified": false,
+  "review": {
+    "low_confidence_words": 30,
+    "zero_duration_words": 1
+  },
+  "segments": [
+    {
+      "start": 45.0,
+      "end": 50.28,
+      "text": " It's powers, the sword is force",
+      "avg_logprob": -0.42138830331655647,
+      "no_speech_prob": 0.7026236653327942
+    },
+    {
+      "start": 51.0,
+      "end": 58.06,
+      "text": " Yes, I will see you through the smoking flames on the fertile lines of war",
+      "avg_logprob": -0.42138830331655647,
+      "no_speech_prob": 0.7026236653327942
+    },
+    {
+      "start": 58.06,
+      "end": 60.78,
+      "text": " We have to find a better way",
+      "avg_logprob": -0.42138830331655647,
+      "no_speech_prob": 0.7026236653327942
+    },
+    {
+      "start": 60.78,
+      "end": 68.1,
+      "text": " And I will stand my ground until the end, till we conquer them all",
+      "avg_logprob": -0.42138830331655647,
+      "no_speech_prob": 0.7026236653327942
+    },
+    {
+      "start": 68.1,
+      "end": 71.34,
+      "text": " We have to find a better way",
+      "avg_logprob": -0.42138830331655647,
+      "no_speech_prob": 0.7026236653327942
+    },
+    {
+      "start": 73.14,
+      "end": 75.88,
+      "text": " Threw the fire in the flames",
+      "avg_logprob": -0.7448474501000076,
+      "no_speech_prob": 0.23126716911792755
+    },
+    {
+      "start": 75.88,
+      "end": 78.16,
+      "text": " And shift it to its medicine",
+      "avg_logprob": -0.7448474501000076,
+      "no_speech_prob": 0.23126716911792755
+    },
+    {
+      "start": 78.16,
+      "end": 80.86,
+      "text": " When more's to fight into the cold",
+      "avg_logprob": -0.7448474501000076,
+      "no_speech_prob": 0.23126716911792755
+    },
+    {
+      "start": 80.86,
+      "end": 83.22,
+      "text": " This isn't for it, it will grow",
+      "avg_logprob": -0.7448474501000076,
+      "no_speech_prob": 0.23126716911792755
+    },
+    {
+      "start": 83.22,
+      "end": 85.92,
+      "text": " The battle ends on top of here",
+      "avg_logprob": -0.7448474501000076,
+      "no_speech_prob": 0.23126716911792755
+    },
+    {
+      "start": 85.92,
+      "end": 88.42,
+      "text": " This is where we conquer sin",
+      "avg_logprob": -0.7448474501000076,
+      "no_speech_prob": 0.23126716911792755
+    },
+    {
+      "start": 88.42,
+      "end": 89.7,
+      "text": " On the kernel",
+      "avg_logprob": -0.7448474501000076,
+      "no_speech_prob": 0.23126716911792755
+    }
+  ],
+  "words": [
+    {
+      "word": "It's",
+      "start": 45.0,
+      "end": 46.2,
+      "probability": 0.4365335847251117
+    },
+    {
+      "word": "powers,",
+      "start": 46.2,
+      "end": 46.2,
+      "probability": 0.14156873524188995
+    },
+    {
+      "word": "the",
+      "start": 48.88,
+      "end": 49.0,
+      "probability": 0.6360256671905518
+    },
+    {
+      "word": "sword",
+      "start": 49.0,
+      "end": 49.38,
+      "probability": 0.3000076413154602
+    },
+    {
+      "word": "is",
+      "start": 49.38,
+      "end": 49.7,
+      "probability": 0.3340567350387573
+    },
+    {
+      "word": "force",
+      "start": 49.7,
+      "end": 50.28,
+      "probability": 0.7093085646629333
+    },
+    {
+      "word": "Yes,",
+      "start": 50.900000000000006,
+      "end": 51.32,
+      "probability": 0.4212265908718109
+    },
+    {
+      "word": "I",
+      "start": 51.9,
+      "end": 52.019999999999996,
+      "probability": 0.9875708818435669
+    },
+    {
+      "word": "will",
+      "start": 52.019999999999996,
+      "end": 52.58,
+      "probability": 0.9834591746330261
+    },
+    {
+      "word": "see",
+      "start": 52.58,
+      "end": 53.08,
+      "probability": 0.7811445593833923
+    },
+    {
+      "word": "you",
+      "start": 53.08,
+      "end": 53.76,
+      "probability": 0.9320056438446045
+    },
+    {
+      "word": "through",
+      "start": 53.76,
+      "end": 54.32,
+      "probability": 0.3077603876590729
+    },
+    {
+      "word": "the",
+      "start": 54.32,
+      "end": 54.62,
+      "probability": 0.9924955368041992
+    },
+    {
+      "word": "smoking",
+      "start": 54.62,
+      "end": 55.06,
+      "probability": 0.44887852668762207
+    },
+    {
+      "word": "flames",
+      "start": 55.06,
+      "end": 55.8,
+      "probability": 0.996755063533783
+    },
+    {
+      "word": "on",
+      "start": 55.8,
+      "end": 56.28,
+      "probability": 0.7376633882522583
+    },
+    {
+      "word": "the",
+      "start": 56.28,
+      "end": 56.519999999999996,
+      "probability": 0.9490227699279785
+    },
+    {
+      "word": "fertile",
+      "start": 56.519999999999996,
+      "end": 57.019999999999996,
+      "probability": 0.07757814228534698
+    },
+    {
+      "word": "lines",
+      "start": 57.019999999999996,
+      "end": 57.480000000000004,
+      "probability": 0.3812916874885559
+    },
+    {
+      "word": "of",
+      "start": 57.480000000000004,
+      "end": 57.76,
+      "probability": 0.9959715008735657
+    },
+    {
+      "word": "war",
+      "start": 57.76,
+      "end": 58.06,
+      "probability": 0.5926613211631775
+    },
+    {
+      "word": "We",
+      "start": 58.06,
+      "end": 58.519999999999996,
+      "probability": 0.7427675724029541
+    },
+    {
+      "word": "have",
+      "start": 58.519999999999996,
+      "end": 58.8,
+      "probability": 0.9567662477493286
+    },
+    {
+      "word": "to",
+      "start": 58.8,
+      "end": 59.06,
+      "probability": 0.9927874207496643
+    },
+    {
+      "word": "find",
+      "start": 59.06,
+      "end": 59.44,
+      "probability": 0.919212281703949
+    },
+    {
+      "word": "a",
+      "start": 59.44,
+      "end": 59.76,
+      "probability": 0.9346991777420044
+    },
+    {
+      "word": "better",
+      "start": 59.76,
+      "end": 60.06,
+      "probability": 0.9608170390129089
+    },
+    {
+      "word": "way",
+      "start": 60.06,
+      "end": 60.78,
+      "probability": 0.9945853352546692
+    },
+    {
+      "word": "And",
+      "start": 60.78,
+      "end": 61.480000000000004,
+      "probability": 0.7673551440238953
+    },
+    {
+      "word": "I",
+      "start": 61.480000000000004,
+      "end": 62.06,
+      "probability": 0.993985116481781
+    },
+    {
+      "word": "will",
+      "start": 62.06,
+      "end": 62.66,
+      "probability": 0.988724410533905
+    },
+    {
+      "word": "stand",
+      "start": 62.66,
+      "end": 63.08,
+      "probability": 0.7390079498291016
+    },
+    {
+      "word": "my",
+      "start": 63.08,
+      "end": 63.7,
+      "probability": 0.487633615732193
+    },
+    {
+      "word": "ground",
+      "start": 63.7,
+      "end": 64.48,
+      "probability": 0.9806288480758667
+    },
+    {
+      "word": "until",
+      "start": 64.48,
+      "end": 64.9,
+      "probability": 0.6262395977973938
+    },
+    {
+      "word": "the",
+      "start": 64.9,
+      "end": 65.26,
+      "probability": 0.9922193288803101
+    },
+    {
+      "word": "end,",
+      "start": 65.26,
+      "end": 65.78,
+      "probability": 0.9891234040260315
+    },
+    {
+      "word": "till",
+      "start": 65.94,
+      "end": 66.3,
+      "probability": 0.49010878801345825
+    },
+    {
+      "word": "we",
+      "start": 66.3,
+      "end": 66.64,
+      "probability": 0.9953539371490479
+    },
+    {
+      "word": "conquer",
+      "start": 66.64,
+      "end": 67.34,
+      "probability": 0.9971480965614319
+    },
+    {
+      "word": "them",
+      "start": 67.34,
+      "end": 67.82,
+      "probability": 0.41288551688194275
+    },
+    {
+      "word": "all",
+      "start": 67.82,
+      "end": 68.1,
+      "probability": 0.9953010082244873
+    },
+    {
+      "word": "We",
+      "start": 68.1,
+      "end": 68.48,
+      "probability": 0.9012674689292908
+    },
+    {
+      "word": "have",
+      "start": 68.48,
+      "end": 68.88,
+      "probability": 0.9959180951118469
+    },
+    {
+      "word": "to",
+      "start": 68.88,
+      "end": 69.08,
+      "probability": 0.9984909296035767
+    },
+    {
+      "word": "find",
+      "start": 69.08,
+      "end": 69.46000000000001,
+      "probability": 0.9896818995475769
+    },
+    {
+      "word": "a",
+      "start": 69.46000000000001,
+      "end": 69.8,
+      "probability": 0.9898093938827515
+    },
+    {
+      "word": "better",
+      "start": 69.8,
+      "end": 70.12,
+      "probability": 0.9989847540855408
+    },
+    {
+      "word": "way",
+      "start": 70.12,
+      "end": 71.34,
+      "probability": 0.9932554960250854
+    },
+    {
+      "word": "Threw",
+      "start": 73.14,
+      "end": 73.86,
+      "probability": 0.44118443690240383
+    },
+    {
+      "word": "the",
+      "start": 73.86,
+      "end": 74.14,
+      "probability": 0.9789568781852722
+    },
+    {
+      "word": "fire",
+      "start": 74.14,
+      "end": 74.72,
+      "probability": 0.9338871836662292
+    },
+    {
+      "word": "in",
+      "start": 74.72,
+      "end": 75.03999999999999,
+      "probability": 0.6595631837844849
+    },
+    {
+      "word": "the",
+      "start": 75.03999999999999,
+      "end": 75.24,
+      "probability": 0.948093593120575
+    },
+    {
+      "word": "flames",
+      "start": 75.24,
+      "end": 75.88,
+      "probability": 0.44328629970550537
+    },
+    {
+      "word": "And",
+      "start": 75.88,
+      "end": 76.12,
+      "probability": 0.1971977800130844
+    },
+    {
+      "word": "shift",
+      "start": 76.12,
+      "end": 76.46000000000001,
+      "probability": 0.033736295998096466
+    },
+    {
+      "word": "it",
+      "start": 76.46000000000001,
+      "end": 76.94,
+      "probability": 0.9304930567741394
+    },
+    {
+      "word": "to",
+      "start": 76.94,
+      "end": 77.28,
+      "probability": 0.602900505065918
+    },
+    {
+      "word": "its",
+      "start": 77.28,
+      "end": 77.47999999999999,
+      "probability": 0.28888416290283203
+    },
+    {
+      "word": "medicine",
+      "start": 77.47999999999999,
+      "end": 78.16,
+      "probability": 0.12793119251728058
+    },
+    {
+      "word": "When",
+      "start": 78.16,
+      "end": 78.56,
+      "probability": 0.3767014443874359
+    },
+    {
+      "word": "more's",
+      "start": 78.56,
+      "end": 79.02000000000001,
+      "probability": 0.4239729046821594
+    },
+    {
+      "word": "to",
+      "start": 79.02000000000001,
+      "end": 79.16,
+      "probability": 0.13620686531066895
+    },
+    {
+      "word": "fight",
+      "start": 79.16,
+      "end": 79.58,
+      "probability": 0.6662567853927612
+    },
+    {
+      "word": "into",
+      "start": 79.58,
+      "end": 80.02000000000001,
+      "probability": 0.895090639591217
+    },
+    {
+      "word": "the",
+      "start": 80.02000000000001,
+      "end": 80.28,
+      "probability": 0.9894389510154724
+    },
+    {
+      "word": "cold",
+      "start": 80.28,
+      "end": 80.86,
+      "probability": 0.7729535698890686
+    },
+    {
+      "word": "This",
+      "start": 80.86,
+      "end": 81.22,
+      "probability": 0.16407127678394318
+    },
+    {
+      "word": "isn't",
+      "start": 81.22,
+      "end": 81.8,
+      "probability": 0.6268776059150696
+    },
+    {
+      "word": "for",
+      "start": 81.8,
+      "end": 82.08,
+      "probability": 0.5397515296936035
+    },
+    {
+      "word": "it,",
+      "start": 82.08,
+      "end": 82.38,
+      "probability": 0.10486844182014465
+    },
+    {
+      "word": "it",
+      "start": 82.47999999999999,
+      "end": 82.56,
+      "probability": 0.8069148063659668
+    },
+    {
+      "word": "will",
+      "start": 82.56,
+      "end": 82.78,
+      "probability": 0.8053730130195618
+    },
+    {
+      "word": "grow",
+      "start": 82.78,
+      "end": 83.22,
+      "probability": 0.513621985912323
+    },
+    {
+      "word": "The",
+      "start": 83.22,
+      "end": 83.58,
+      "probability": 0.4784432053565979
+    },
+    {
+      "word": "battle",
+      "start": 83.58,
+      "end": 84.18,
+      "probability": 0.9666213989257812
+    },
+    {
+      "word": "ends",
+      "start": 84.18,
+      "end": 84.56,
+      "probability": 0.14263255894184113
+    },
+    {
+      "word": "on",
+      "start": 84.56,
+      "end": 84.88,
+      "probability": 0.6444424390792847
+    },
+    {
+      "word": "top",
+      "start": 84.88,
+      "end": 85.06,
+      "probability": 0.7821772694587708
+    },
+    {
+      "word": "of",
+      "start": 85.06,
+      "end": 85.32,
+      "probability": 0.9966044425964355
+    },
+    {
+      "word": "here",
+      "start": 85.32,
+      "end": 85.92,
+      "probability": 0.8095593452453613
+    },
+    {
+      "word": "This",
+      "start": 85.92,
+      "end": 86.4,
+      "probability": 0.8132084012031555
+    },
+    {
+      "word": "is",
+      "start": 86.4,
+      "end": 86.7,
+      "probability": 0.990217387676239
+    },
+    {
+      "word": "where",
+      "start": 86.7,
+      "end": 87.03999999999999,
+      "probability": 0.9582105278968811
+    },
+    {
+      "word": "we",
+      "start": 87.03999999999999,
+      "end": 87.34,
+      "probability": 0.9944789409637451
+    },
+    {
+      "word": "conquer",
+      "start": 87.34,
+      "end": 87.72,
+      "probability": 0.30565762519836426
+    },
+    {
+      "word": "sin",
+      "start": 87.72,
+      "end": 88.42,
+      "probability": 0.22445233166217804
+    },
+    {
+      "word": "On",
+      "start": 88.42,
+      "end": 88.97999999999999,
+      "probability": 0.42547473311424255
+    },
+    {
+      "word": "the",
+      "start": 88.97999999999999,
+      "end": 89.28,
+      "probability": 0.43260326981544495
+    },
+    {
+      "word": "kernel",
+      "start": 89.28,
+      "end": 89.7,
+      "probability": 0.04914117604494095
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lyric timing review</title>
+<style>
+body{font:16px system-ui;max-width:900px;margin:40px auto;padding:0 20px;background:#171c24;color:#e8edf4}
+h1{font-size:26px}label{display:block;margin:20px 0}audio{width:100%;margin:20px 0}
+#caption{font-size:25px;min-height:75px;padding:24px;background:#252e3b;border-radius:12px}
+#status{color:#b1bdd0;margin:16px 0}button{display:block;width:100%;text-align:left;background:#252e3b;color:inherit;border:1px solid #3f4a5b;padding:12px;cursor:pointer}
+button.active{background:#315f58}small{color:#b1bdd0}#lines{max-height:400px;overflow:auto}
+</style>
+<h1>Review lyric timing against your recording</h1>
+<p>Choose the original audio asset and its generated <code>lyrics.json</code>.
+Play the audio or click a cue to jump to its timestamp. These drafts need review.</p>
+<label>Audio file <input id="audioFile" type="file" accept="audio/*"></label>
+<label>Caption JSON <input id="cueFile" type="file" accept=".json"></label>
+<audio id="audio" controls></audio>
+<div id="caption">Load audio and captions to begin.</div>
+<div id="status">Files stay in your browser; no uploads.</div>
+<div id="lines"></div>
+<script>
+const audio=document.querySelector('#audio'), lines=document.querySelector('#lines');
+let cues=[], url=null;
+document.querySelector('#audioFile').onchange=e=>{
+  const file=e.target.files[0]; if(!file)return;
+  if(url)URL.revokeObjectURL(url);
+  url=URL.createObjectURL(file); audio.src=url;
+};
+document.querySelector('#cueFile').onchange=async e=>{
+  const file=e.target.files[0]; if(!file)return;
+  try{
+    const parsed=JSON.parse(await file.text());
+    if(!Array.isArray(parsed)||parsed.some(c=>!Number.isFinite(c.at)||!Number.isFinite(c.untilTime)||c.untilTime<=c.at||typeof c.text!=='string'))
+      throw Error('Expected caption objects with at, untilTime, and text.');
+    cues=parsed; lines.replaceChildren();
+    cues.forEach(c=>{
+      const b=document.createElement('button');
+      b.textContent=`${c.at.toFixed(2)}–${c.untilTime.toFixed(2)}s  ${c.text}`;
+      b.onclick=()=>{audio.currentTime=c.at;audio.play().catch(()=>{});};lines.append(b);
+    });
+    document.querySelector('#status').textContent=`Loaded ${cues.length} draft cues. Click one to seek.`;
+    if(cues.length)audio.currentTime=cues[0].at;
+  }catch(err){document.querySelector('#status').textContent=err.message;}
+};
+function update(){
+  const i=cues.findIndex(c=>audio.currentTime>=c.at&&audio.currentTime<c.untilTime);
+  document.querySelector('#caption').textContent=i<0?'…':cues[i].text;
+  [...lines.children].forEach((b,j)=>b.classList.toggle('active',j===i));
+  requestAnimationFrame(update);
+}update();
+</script>
+</html>

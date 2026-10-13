@@ -1,0 +1,1141 @@
+{
+  "audio": "Z:\\git\\Github\\Apocalipse-Music-Pack\\Apocalipse-Music-Pack\\common\\media\\sound\\ApocalipseMusic\\Assets\\Eminem - My Darling (Relapse).ogg",
+  "audio_duration": 320.5224375,
+  "interval": {
+    "start": 30.0,
+    "end": 75.0
+  },
+  "model": "small.en",
+  "language": "en",
+  "vad": false,
+  "device": "cpu",
+  "processing_seconds_including_model_load": 12.886485099999845,
+  "accuracy_verified": false,
+  "review": {
+    "low_confidence_words": 24,
+    "zero_duration_words": 6
+  },
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 31.48,
+      "text": " I mean, right? Nope.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 32.14,
+      "end": 34.42,
+      "text": " Tall wall is dope, and some's bop-a-so.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 34.9,
+      "end": 36.0,
+      "text": " Bop-a-blah-blah-blah-blah-blah.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 36.0,
+      "end": 37.4,
+      "text": " Bop-a-blah-blah-blah-blah-blah.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 37.4,
+      "end": 39.519999999999996,
+      "text": " I don't compete with nobody.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 40.019999999999996,
+      "end": 42.06,
+      "text": " I just go hard, do the rope-a-dope.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 42.28,
+      "end": 44.54,
+      "text": " I least shuffle, and dance around my opponents.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 44.84,
+      "end": 46.480000000000004,
+      "text": " Do donuts, sometimes I play possum.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 46.64,
+      "end": 47.96,
+      "text": " Like I'm asleep, it's awesome.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 48.08,
+      "end": 51.08,
+      "text": " I'm like a sleeping giant, and when I wake, I'm like Dre.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 51.36,
+      "end": 53.980000000000004,
+      "text": " I just jump from out of nowhere and bite-brake.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 54.2,
+      "end": 55.8,
+      "text": " It's like I'm seething them and fill them.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 55.980000000000004,
+      "end": 59.34,
+      "text": " Full of poison, and making noise like a snake before I kill them.",
+      "avg_logprob": -0.3040757972483683,
+      "no_speech_prob": 0.6084977984428406
+    },
+    {
+      "start": 59.34,
+      "end": 61.66,
+      "text": " And let him know that I just don't feel him",
+      "avg_logprob": -0.4937650833600833,
+      "no_speech_prob": 0.15430964529514313
+    },
+    {
+      "start": 61.66,
+      "end": 63.46,
+      "text": " And smack him with the back with his",
+      "avg_logprob": -0.4937650833600833,
+      "no_speech_prob": 0.15430964529514313
+    },
+    {
+      "start": 63.46,
+      "end": 66.24000000000001,
+      "text": " Eminem and Bella, mama's torn up your gun",
+      "avg_logprob": -0.4937650833600833,
+      "no_speech_prob": 0.15430964529514313
+    },
+    {
+      "start": 66.24000000000001,
+      "end": 68.16,
+      "text": " And murder somebody, you should face him",
+      "avg_logprob": -0.4937650833600833,
+      "no_speech_prob": 0.15430964529514313
+    },
+    {
+      "start": 68.16,
+      "end": 70.2,
+      "text": " Tell him why I look him dead in the eye",
+      "avg_logprob": -0.4937650833600833,
+      "no_speech_prob": 0.15430964529514313
+    },
+    {
+      "start": 70.2,
+      "end": 71.08,
+      "text": " Then waste him",
+      "avg_logprob": -0.4937650833600833,
+      "no_speech_prob": 0.15430964529514313
+    },
+    {
+      "start": 71.08,
+      "end": 74.47999999999999,
+      "text": " And the dog shall emerge from the fiery depths of hell",
+      "avg_logprob": -0.4937650833600833,
+      "no_speech_prob": 0.15430964529514313
+    },
+    {
+      "start": 74.47999999999999,
+      "end": 74.88,
+      "text": " And swallow",
+      "avg_logprob": -0.4937650833600833,
+      "no_speech_prob": 0.15430964529514313
+    }
+  ],
+  "words": [
+    {
+      "word": "I",
+      "start": 30.0,
+      "end": 30.22,
+      "probability": 0.12804226577281952
+    },
+    {
+      "word": "mean,",
+      "start": 30.22,
+      "end": 30.22,
+      "probability": 0.4480462968349457
+    },
+    {
+      "word": "right?",
+      "start": 30.44,
+      "end": 30.62,
+      "probability": 0.9353779554367065
+    },
+    {
+      "word": "Nope.",
+      "start": 31.48,
+      "end": 31.48,
+      "probability": 0.9187297224998474
+    },
+    {
+      "word": "Tall",
+      "start": 32.14,
+      "end": 32.18,
+      "probability": 0.3415583372116089
+    },
+    {
+      "word": "wall",
+      "start": 32.18,
+      "end": 32.52,
+      "probability": 0.7127198576927185
+    },
+    {
+      "word": "is",
+      "start": 32.52,
+      "end": 32.8,
+      "probability": 0.9631973505020142
+    },
+    {
+      "word": "dope,",
+      "start": 32.8,
+      "end": 33.1,
+      "probability": 0.9957690238952637
+    },
+    {
+      "word": "and",
+      "start": 33.28,
+      "end": 33.44,
+      "probability": 0.39885398745536804
+    },
+    {
+      "word": "some's",
+      "start": 33.44,
+      "end": 33.7,
+      "probability": 0.5656330287456512
+    },
+    {
+      "word": "bop",
+      "start": 33.7,
+      "end": 33.94,
+      "probability": 0.28181042522192
+    },
+    {
+      "word": "-a",
+      "start": 33.94,
+      "end": 34.1,
+      "probability": 0.6382715106010437
+    },
+    {
+      "word": "-so.",
+      "start": 34.1,
+      "end": 34.42,
+      "probability": 0.7620260417461395
+    },
+    {
+      "word": "Bop",
+      "start": 34.9,
+      "end": 35.0,
+      "probability": 0.6263687461614609
+    },
+    {
+      "word": "-a",
+      "start": 35.0,
+      "end": 35.14,
+      "probability": 0.8554762899875641
+    },
+    {
+      "word": "-blah",
+      "start": 35.14,
+      "end": 35.14,
+      "probability": 0.4640642950932185
+    },
+    {
+      "word": "-blah",
+      "start": 35.14,
+      "end": 35.4,
+      "probability": 0.8615225156148275
+    },
+    {
+      "word": "-blah",
+      "start": 35.4,
+      "end": 35.92,
+      "probability": 0.8553833961486816
+    },
+    {
+      "word": "-blah",
+      "start": 35.92,
+      "end": 36.0,
+      "probability": 0.8040210604667664
+    },
+    {
+      "word": "-blah.",
+      "start": 36.0,
+      "end": 36.0,
+      "probability": 0.7851270536581675
+    },
+    {
+      "word": "Bop",
+      "start": 36.0,
+      "end": 36.0,
+      "probability": 0.44276168663054705
+    },
+    {
+      "word": "-a",
+      "start": 36.0,
+      "end": 36.44,
+      "probability": 0.892710953950882
+    },
+    {
+      "word": "-blah",
+      "start": 36.44,
+      "end": 36.7,
+      "probability": 0.9739587903022766
+    },
+    {
+      "word": "-blah",
+      "start": 36.7,
+      "end": 37.04,
+      "probability": 0.9826845526695251
+    },
+    {
+      "word": "-blah",
+      "start": 37.04,
+      "end": 37.3,
+      "probability": 0.9624893069267273
+    },
+    {
+      "word": "-blah",
+      "start": 37.3,
+      "end": 37.3,
+      "probability": 0.8885732491811117
+    },
+    {
+      "word": "-blah.",
+      "start": 37.3,
+      "end": 37.4,
+      "probability": 0.7696817914644877
+    },
+    {
+      "word": "I",
+      "start": 37.4,
+      "end": 37.68,
+      "probability": 0.1952526867389679
+    },
+    {
+      "word": "don't",
+      "start": 37.68,
+      "end": 38.28,
+      "probability": 0.8483635187149048
+    },
+    {
+      "word": "compete",
+      "start": 38.28,
+      "end": 38.68,
+      "probability": 0.9964749217033386
+    },
+    {
+      "word": "with",
+      "start": 38.68,
+      "end": 38.980000000000004,
+      "probability": 0.988413393497467
+    },
+    {
+      "word": "nobody.",
+      "start": 38.980000000000004,
+      "end": 39.519999999999996,
+      "probability": 0.9905487895011902
+    },
+    {
+      "word": "I",
+      "start": 40.019999999999996,
+      "end": 40.24,
+      "probability": 0.9934723377227783
+    },
+    {
+      "word": "just",
+      "start": 40.24,
+      "end": 40.42,
+      "probability": 0.9953088164329529
+    },
+    {
+      "word": "go",
+      "start": 40.42,
+      "end": 40.66,
+      "probability": 0.9848225116729736
+    },
+    {
+      "word": "hard,",
+      "start": 40.66,
+      "end": 41.06,
+      "probability": 0.9936622381210327
+    },
+    {
+      "word": "do",
+      "start": 41.2,
+      "end": 41.3,
+      "probability": 0.9699485898017883
+    },
+    {
+      "word": "the",
+      "start": 41.3,
+      "end": 41.480000000000004,
+      "probability": 0.9758446216583252
+    },
+    {
+      "word": "rope",
+      "start": 41.480000000000004,
+      "end": 41.68,
+      "probability": 0.6620297431945801
+    },
+    {
+      "word": "-a",
+      "start": 41.68,
+      "end": 41.84,
+      "probability": 0.7815419435501099
+    },
+    {
+      "word": "-dope.",
+      "start": 41.84,
+      "end": 42.06,
+      "probability": 0.9675187468528748
+    },
+    {
+      "word": "I",
+      "start": 42.28,
+      "end": 42.38,
+      "probability": 0.7989475131034851
+    },
+    {
+      "word": "least",
+      "start": 42.38,
+      "end": 42.64,
+      "probability": 0.1658889651298523
+    },
+    {
+      "word": "shuffle,",
+      "start": 42.64,
+      "end": 43.019999999999996,
+      "probability": 0.9701358079910278
+    },
+    {
+      "word": "and",
+      "start": 43.32,
+      "end": 43.42,
+      "probability": 0.9449716806411743
+    },
+    {
+      "word": "dance",
+      "start": 43.42,
+      "end": 43.68,
+      "probability": 0.9788230061531067
+    },
+    {
+      "word": "around",
+      "start": 43.68,
+      "end": 43.980000000000004,
+      "probability": 0.9961275458335876
+    },
+    {
+      "word": "my",
+      "start": 43.980000000000004,
+      "end": 44.2,
+      "probability": 0.9893641471862793
+    },
+    {
+      "word": "opponents.",
+      "start": 44.2,
+      "end": 44.54,
+      "probability": 0.9809123873710632
+    },
+    {
+      "word": "Do",
+      "start": 44.84,
+      "end": 44.86,
+      "probability": 0.40766680240631104
+    },
+    {
+      "word": "donuts,",
+      "start": 44.86,
+      "end": 45.16,
+      "probability": 0.4027770906686783
+    },
+    {
+      "word": "sometimes",
+      "start": 45.24,
+      "end": 45.519999999999996,
+      "probability": 0.9661650061607361
+    },
+    {
+      "word": "I",
+      "start": 45.519999999999996,
+      "end": 45.74,
+      "probability": 0.9850720763206482
+    },
+    {
+      "word": "play",
+      "start": 45.74,
+      "end": 45.96,
+      "probability": 0.9865851402282715
+    },
+    {
+      "word": "possum.",
+      "start": 45.96,
+      "end": 46.480000000000004,
+      "probability": 0.9744255840778351
+    },
+    {
+      "word": "Like",
+      "start": 46.64,
+      "end": 46.8,
+      "probability": 0.9823765754699707
+    },
+    {
+      "word": "I'm",
+      "start": 46.8,
+      "end": 47.019999999999996,
+      "probability": 0.9427901804447174
+    },
+    {
+      "word": "asleep,",
+      "start": 47.019999999999996,
+      "end": 47.379999999999995,
+      "probability": 0.932758629322052
+    },
+    {
+      "word": "it's",
+      "start": 47.54,
+      "end": 47.760000000000005,
+      "probability": 0.7835334837436676
+    },
+    {
+      "word": "awesome.",
+      "start": 47.760000000000005,
+      "end": 47.96,
+      "probability": 0.9479280710220337
+    },
+    {
+      "word": "I'm",
+      "start": 48.08,
+      "end": 48.239999999999995,
+      "probability": 0.9952212572097778
+    },
+    {
+      "word": "like",
+      "start": 48.239999999999995,
+      "end": 48.4,
+      "probability": 0.9956501126289368
+    },
+    {
+      "word": "a",
+      "start": 48.4,
+      "end": 48.54,
+      "probability": 0.8222060203552246
+    },
+    {
+      "word": "sleeping",
+      "start": 48.54,
+      "end": 48.8,
+      "probability": 0.38211455941200256
+    },
+    {
+      "word": "giant,",
+      "start": 48.8,
+      "end": 49.22,
+      "probability": 0.967453122138977
+    },
+    {
+      "word": "and",
+      "start": 49.379999999999995,
+      "end": 49.5,
+      "probability": 0.9357082843780518
+    },
+    {
+      "word": "when",
+      "start": 49.5,
+      "end": 49.68,
+      "probability": 0.9882232546806335
+    },
+    {
+      "word": "I",
+      "start": 49.68,
+      "end": 49.9,
+      "probability": 0.9978833794593811
+    },
+    {
+      "word": "wake,",
+      "start": 49.9,
+      "end": 50.239999999999995,
+      "probability": 0.8860197067260742
+    },
+    {
+      "word": "I'm",
+      "start": 50.36,
+      "end": 50.519999999999996,
+      "probability": 0.9982743263244629
+    },
+    {
+      "word": "like",
+      "start": 50.519999999999996,
+      "end": 50.8,
+      "probability": 0.9963321089744568
+    },
+    {
+      "word": "Dre.",
+      "start": 50.8,
+      "end": 51.08,
+      "probability": 0.3875989317893982
+    },
+    {
+      "word": "I",
+      "start": 51.36,
+      "end": 51.56,
+      "probability": 0.9968793392181396
+    },
+    {
+      "word": "just",
+      "start": 51.56,
+      "end": 51.760000000000005,
+      "probability": 0.9940580129623413
+    },
+    {
+      "word": "jump",
+      "start": 51.760000000000005,
+      "end": 52.0,
+      "probability": 0.994074285030365
+    },
+    {
+      "word": "from",
+      "start": 52.0,
+      "end": 52.28,
+      "probability": 0.7716227769851685
+    },
+    {
+      "word": "out",
+      "start": 52.28,
+      "end": 52.5,
+      "probability": 0.9829845428466797
+    },
+    {
+      "word": "of",
+      "start": 52.5,
+      "end": 52.620000000000005,
+      "probability": 0.7369763255119324
+    },
+    {
+      "word": "nowhere",
+      "start": 52.620000000000005,
+      "end": 52.980000000000004,
+      "probability": 0.9940726161003113
+    },
+    {
+      "word": "and",
+      "start": 52.980000000000004,
+      "end": 53.32,
+      "probability": 0.7377296090126038
+    },
+    {
+      "word": "bite",
+      "start": 53.32,
+      "end": 53.56,
+      "probability": 0.6425689458847046
+    },
+    {
+      "word": "-brake.",
+      "start": 53.56,
+      "end": 53.980000000000004,
+      "probability": 0.4862232009569804
+    },
+    {
+      "word": "It's",
+      "start": 54.2,
+      "end": 54.260000000000005,
+      "probability": 0.5501352623105049
+    },
+    {
+      "word": "like",
+      "start": 54.260000000000005,
+      "end": 54.42,
+      "probability": 0.7648977637290955
+    },
+    {
+      "word": "I'm",
+      "start": 54.42,
+      "end": 54.739999999999995,
+      "probability": 0.8885806500911713
+    },
+    {
+      "word": "seething",
+      "start": 54.739999999999995,
+      "end": 55.06,
+      "probability": 0.6168105403582255
+    },
+    {
+      "word": "them",
+      "start": 55.06,
+      "end": 55.239999999999995,
+      "probability": 0.5089272260665894
+    },
+    {
+      "word": "and",
+      "start": 55.239999999999995,
+      "end": 55.4,
+      "probability": 0.6418817639350891
+    },
+    {
+      "word": "fill",
+      "start": 55.4,
+      "end": 55.620000000000005,
+      "probability": 0.7604717016220093
+    },
+    {
+      "word": "them.",
+      "start": 55.620000000000005,
+      "end": 55.8,
+      "probability": 0.6287684440612793
+    },
+    {
+      "word": "Full",
+      "start": 55.980000000000004,
+      "end": 56.18,
+      "probability": 0.6488439440727234
+    },
+    {
+      "word": "of",
+      "start": 56.18,
+      "end": 56.34,
+      "probability": 0.9846742153167725
+    },
+    {
+      "word": "poison,",
+      "start": 56.34,
+      "end": 56.8,
+      "probability": 0.9788682460784912
+    },
+    {
+      "word": "and",
+      "start": 56.92,
+      "end": 57.06,
+      "probability": 0.908361554145813
+    },
+    {
+      "word": "making",
+      "start": 57.06,
+      "end": 57.28,
+      "probability": 0.8859813809394836
+    },
+    {
+      "word": "noise",
+      "start": 57.28,
+      "end": 57.68,
+      "probability": 0.990564227104187
+    },
+    {
+      "word": "like",
+      "start": 57.68,
+      "end": 57.96,
+      "probability": 0.9478139281272888
+    },
+    {
+      "word": "a",
+      "start": 57.96,
+      "end": 58.08,
+      "probability": 0.9887292385101318
+    },
+    {
+      "word": "snake",
+      "start": 58.08,
+      "end": 58.379999999999995,
+      "probability": 0.9992843270301819
+    },
+    {
+      "word": "before",
+      "start": 58.379999999999995,
+      "end": 58.8,
+      "probability": 0.8043537735939026
+    },
+    {
+      "word": "I",
+      "start": 58.8,
+      "end": 59.1,
+      "probability": 0.980989396572113
+    },
+    {
+      "word": "kill",
+      "start": 59.1,
+      "end": 59.16,
+      "probability": 0.992385745048523
+    },
+    {
+      "word": "them.",
+      "start": 59.16,
+      "end": 59.34,
+      "probability": 0.7744645476341248
+    },
+    {
+      "word": "And",
+      "start": 59.34,
+      "end": 59.68,
+      "probability": 0.12434893846511841
+    },
+    {
+      "word": "let",
+      "start": 59.68,
+      "end": 59.879999999999995,
+      "probability": 0.9642885327339172
+    },
+    {
+      "word": "him",
+      "start": 59.879999999999995,
+      "end": 60.06,
+      "probability": 0.5793989300727844
+    },
+    {
+      "word": "know",
+      "start": 60.06,
+      "end": 60.239999999999995,
+      "probability": 0.990818440914154
+    },
+    {
+      "word": "that",
+      "start": 60.239999999999995,
+      "end": 60.42,
+      "probability": 0.9306206703186035
+    },
+    {
+      "word": "I",
+      "start": 60.42,
+      "end": 60.6,
+      "probability": 0.9112798571586609
+    },
+    {
+      "word": "just",
+      "start": 60.6,
+      "end": 60.84,
+      "probability": 0.9778029918670654
+    },
+    {
+      "word": "don't",
+      "start": 60.84,
+      "end": 61.260000000000005,
+      "probability": 0.9760788381099701
+    },
+    {
+      "word": "feel",
+      "start": 61.260000000000005,
+      "end": 61.46,
+      "probability": 0.5409201979637146
+    },
+    {
+      "word": "him",
+      "start": 61.46,
+      "end": 61.66,
+      "probability": 0.9351344704627991
+    },
+    {
+      "word": "And",
+      "start": 61.66,
+      "end": 61.94,
+      "probability": 0.5703475475311279
+    },
+    {
+      "word": "smack",
+      "start": 61.94,
+      "end": 62.2,
+      "probability": 0.6462838053703308
+    },
+    {
+      "word": "him",
+      "start": 62.2,
+      "end": 62.38,
+      "probability": 0.9812995791435242
+    },
+    {
+      "word": "with",
+      "start": 62.38,
+      "end": 62.52,
+      "probability": 0.983479380607605
+    },
+    {
+      "word": "the",
+      "start": 62.52,
+      "end": 62.68,
+      "probability": 0.9574345946311951
+    },
+    {
+      "word": "back",
+      "start": 62.68,
+      "end": 63.0,
+      "probability": 0.6701126098632812
+    },
+    {
+      "word": "with",
+      "start": 63.0,
+      "end": 63.26,
+      "probability": 0.7530640363693237
+    },
+    {
+      "word": "his",
+      "start": 63.26,
+      "end": 63.46,
+      "probability": 0.3900874853134155
+    },
+    {
+      "word": "Eminem",
+      "start": 63.46,
+      "end": 64.06,
+      "probability": 0.0008010235615074635
+    },
+    {
+      "word": "and",
+      "start": 64.06,
+      "end": 64.68,
+      "probability": 0.6861046552658081
+    },
+    {
+      "word": "Bella,",
+      "start": 64.68,
+      "end": 65.06,
+      "probability": 0.640086829662323
+    },
+    {
+      "word": "mama's",
+      "start": 65.06,
+      "end": 65.52000000000001,
+      "probability": 0.5331893364588419
+    },
+    {
+      "word": "torn",
+      "start": 65.52000000000001,
+      "end": 65.7,
+      "probability": 0.46291840076446533
+    },
+    {
+      "word": "up",
+      "start": 65.7,
+      "end": 65.88,
+      "probability": 0.9020764231681824
+    },
+    {
+      "word": "your",
+      "start": 65.88,
+      "end": 66.0,
+      "probability": 0.4033491909503937
+    },
+    {
+      "word": "gun",
+      "start": 66.0,
+      "end": 66.24000000000001,
+      "probability": 0.5139290690422058
+    },
+    {
+      "word": "And",
+      "start": 66.24000000000001,
+      "end": 66.47999999999999,
+      "probability": 0.05598529428243637
+    },
+    {
+      "word": "murder",
+      "start": 66.47999999999999,
+      "end": 66.64,
+      "probability": 0.9586740732192993
+    },
+    {
+      "word": "somebody,",
+      "start": 66.64,
+      "end": 67.12,
+      "probability": 0.9835454225540161
+    },
+    {
+      "word": "you",
+      "start": 67.3,
+      "end": 67.44,
+      "probability": 0.9723283052444458
+    },
+    {
+      "word": "should",
+      "start": 67.44,
+      "end": 67.58,
+      "probability": 0.997960090637207
+    },
+    {
+      "word": "face",
+      "start": 67.58,
+      "end": 67.88,
+      "probability": 0.8880929350852966
+    },
+    {
+      "word": "him",
+      "start": 67.88,
+      "end": 68.16,
+      "probability": 0.8207147717475891
+    },
+    {
+      "word": "Tell",
+      "start": 68.16,
+      "end": 68.53999999999999,
+      "probability": 0.8891234993934631
+    },
+    {
+      "word": "him",
+      "start": 68.53999999999999,
+      "end": 68.7,
+      "probability": 0.8374716639518738
+    },
+    {
+      "word": "why",
+      "start": 68.7,
+      "end": 68.96000000000001,
+      "probability": 0.9597823619842529
+    },
+    {
+      "word": "I",
+      "start": 68.96000000000001,
+      "end": 69.06,
+      "probability": 0.708066463470459
+    },
+    {
+      "word": "look",
+      "start": 69.06,
+      "end": 69.25999999999999,
+      "probability": 0.896935224533081
+    },
+    {
+      "word": "him",
+      "start": 69.25999999999999,
+      "end": 69.42,
+      "probability": 0.903980553150177
+    },
+    {
+      "word": "dead",
+      "start": 69.42,
+      "end": 69.62,
+      "probability": 0.9961586594581604
+    },
+    {
+      "word": "in",
+      "start": 69.62,
+      "end": 69.78,
+      "probability": 0.9884825348854065
+    },
+    {
+      "word": "the",
+      "start": 69.78,
+      "end": 69.97999999999999,
+      "probability": 0.9748423099517822
+    },
+    {
+      "word": "eye",
+      "start": 69.97999999999999,
+      "end": 70.2,
+      "probability": 0.8978378176689148
+    },
+    {
+      "word": "Then",
+      "start": 70.2,
+      "end": 70.42,
+      "probability": 0.024922141805291176
+    },
+    {
+      "word": "waste",
+      "start": 70.42,
+      "end": 70.75999999999999,
+      "probability": 0.9318230152130127
+    },
+    {
+      "word": "him",
+      "start": 70.75999999999999,
+      "end": 71.08,
+      "probability": 0.8929117918014526
+    },
+    {
+      "word": "And",
+      "start": 71.08,
+      "end": 71.58,
+      "probability": 0.38537150621414185
+    },
+    {
+      "word": "the",
+      "start": 71.58,
+      "end": 71.74000000000001,
+      "probability": 0.8663538694381714
+    },
+    {
+      "word": "dog",
+      "start": 71.74000000000001,
+      "end": 72.02000000000001,
+      "probability": 0.5096573233604431
+    },
+    {
+      "word": "shall",
+      "start": 72.02000000000001,
+      "end": 72.28,
+      "probability": 0.2798430621623993
+    },
+    {
+      "word": "emerge",
+      "start": 72.28,
+      "end": 72.62,
+      "probability": 0.9718277454376221
+    },
+    {
+      "word": "from",
+      "start": 72.62,
+      "end": 72.96000000000001,
+      "probability": 0.8417825698852539
+    },
+    {
+      "word": "the",
+      "start": 72.96000000000001,
+      "end": 73.14,
+      "probability": 0.9746915698051453
+    },
+    {
+      "word": "fiery",
+      "start": 73.14,
+      "end": 73.47999999999999,
+      "probability": 0.9986847043037415
+    },
+    {
+      "word": "depths",
+      "start": 73.47999999999999,
+      "end": 73.92,
+      "probability": 0.9994039535522461
+    },
+    {
+      "word": "of",
+      "start": 73.92,
+      "end": 74.2,
+      "probability": 0.9190688729286194
+    },
+    {
+      "word": "hell",
+      "start": 74.2,
+      "end": 74.47999999999999,
+      "probability": 0.8854049444198608
+    },
+    {
+      "word": "And",
+      "start": 74.47999999999999,
+      "end": 74.66,
+      "probability": 0.08563635498285294
+    },
+    {
+      "word": "swallow",
+      "start": 74.66,
+      "end": 74.88,
+      "probability": 0.9907846450805664
+    }
+  ]
+}

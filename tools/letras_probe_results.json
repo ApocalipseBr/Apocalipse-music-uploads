@@ -1,0 +1,80 @@
+{
+  "checked_at_utc": "2026-10-06T18:19:28.510579+00:00",
+  "scope": "Three-song maximum; no full lyrics saved; no retries or bypass",
+  "samples": [
+    {
+      "asset": "Z:\\git\\Github\\Apocalipse-Music-Pack\\Apocalipse-Music-Pack\\common\\media\\sound\\ApocalipseMusic\\Assets\\Eminem - My Darling (Relapse).ogg",
+      "filename_metadata": {
+        "artist": "Eminem",
+        "title": "My Darling",
+        "qualifiers": [
+          "Relapse"
+        ],
+        "needs_artist_review": false
+      },
+      "candidate_url": "https://www.letras.mus.br/eminem/my-darling/",
+      "url_source": "candidate",
+      "match_verified": false,
+      "status": "page_read",
+      "http_status": 200,
+      "final_url": "https://www.letras.mus.br/eminem/1489792/",
+      "page_title": "My Darling - Eminem - LETRAS.MUS.BR",
+      "canonical_url": "https://www.letras.mus.br/eminem/1489792/",
+      "title_match": true,
+      "artist_match": true,
+      "title_artist_match": true,
+      "lyric_container_found": true,
+      "lyric_word_count": 1051,
+      "lyric_preview": "Yeah, look If I were to rap about the crap",
+      "preview_word_limit": 10
+    },
+    {
+      "asset": "Z:\\git\\Github\\Apocalipse-Music-Pack\\Apocalipse-Music-Pack\\common\\media\\sound\\ApocalipseMusic\\Assets\\Escape The Fate - This War Is Ours.ogg",
+      "filename_metadata": {
+        "artist": "Escape The Fate",
+        "title": "This War Is Ours",
+        "qualifiers": [],
+        "needs_artist_review": false
+      },
+      "candidate_url": "https://www.letras.mus.br/escape-the-fate/this-war-is-ours/",
+      "url_source": "candidate",
+      "match_verified": false,
+      "status": "page_read",
+      "http_status": 200,
+      "final_url": "https://www.letras.mus.br/escape-the-fate/1347815/",
+      "page_title": "This War Is Ours (The Guillotine II) - Escape The Fate - LETRAS.MUS.BR",
+      "canonical_url": "https://www.letras.mus.br/escape-the-fate/1347815/",
+      "title_match": true,
+      "artist_match": true,
+      "title_artist_match": true,
+      "lyric_container_found": true,
+      "lyric_word_count": 294,
+      "lyric_preview": "We have to find a better way Out of this",
+      "preview_word_limit": 10
+    },
+    {
+      "asset": "Z:\\git\\Github\\Apocalipse-Music-Pack\\Apocalipse-Music-Pack\\common\\media\\sound\\ApocalipseMusic\\Assets\\Skrillex ft. Korn - Get up.ogg",
+      "filename_metadata": {
+        "artist": "Skrillex ft. Korn",
+        "title": "Get up",
+        "qualifiers": [],
+        "needs_artist_review": true
+      },
+      "candidate_url": "https://www.letras.mus.br/korn/1872503/",
+      "url_source": "candidate",
+      "match_verified": false,
+      "status": "page_read",
+      "http_status": 200,
+      "final_url": "https://www.letras.mus.br/korn/1872503/",
+      "page_title": "Get Up! (feat. Skrillex) - KoRn - LETRAS.MUS.BR",
+      "canonical_url": "https://www.letras.mus.br/korn/1872503/",
+      "title_match": true,
+      "artist_match": false,
+      "title_artist_match": false,
+      "lyric_container_found": true,
+      "lyric_word_count": 216,
+      "lyric_preview": "I am clearly broken and no one knows what to",
+      "preview_word_limit": 10
+    }
+  ]
+}

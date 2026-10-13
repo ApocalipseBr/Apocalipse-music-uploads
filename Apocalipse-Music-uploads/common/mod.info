@@ -1,0 +1,7 @@
+name=Apocalipse Music Pack
+id=Apocalipse-Music-Pack
+author=Hypothetic
+description=Music radio catalog and compact synchronized playback protocol. Requires ApocalipseBRRadio. Add songs with the importer.
+require=apocalipsebrradio
+versionMin=42.0.0
+poster=poster.png
