@@ -18,6 +18,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_a810b394babb",
+    sound = "AMU_A810B394BABB043B",
+    duration = 339,
+    artist = "Sajanka Feat Adiistation",
+    title = "Pa Ma Garesa",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_1f266b756ac0",
     sound = "AMU_1F266B756AC05C7A",
     duration = 232,
