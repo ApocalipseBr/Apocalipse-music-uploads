@@ -2,6 +2,14 @@
 require "ApocalipseMusicUploads/AMUBridge"
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_9d90c83995f0",
+    sound = "AMU_9D90C83995F070C2",
+    duration = 300,
+    artist = "George Michael",
+    title = "Careless Whisper",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_70725e10e9ae",
     sound = "AMU_70725E10E9AE9999",
     duration = 206,
@@ -42,11 +50,35 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_b8cb7dec2b0f",
+    sound = "AMU_B8CB7DEC2B0FAAB9",
+    duration = 399,
+    artist = "SilvaGunner",
+    title = "Anjo de Uma Asa",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_5bc2f2b3b979",
+    sound = "AMU_5BC2F2B3B979009B",
+    duration = 229,
+    artist = "Kevin Sherwood",
+    title = "115",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_0e9afd6a4771",
     sound = "AMU_0E9AFD6A47719A65",
     duration = 133,
     artist = "Mc Kevin",
     title = "Bye Bye",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_7a10d90d8722",
+    sound = "AMU_7A10D90D8722D764",
+    duration = 313,
+    artist = "Lifeseeker",
+    title = "Gone Guru",
 })
 
 ApocalipseMusicUploads.registerSong({
@@ -63,6 +95,22 @@ ApocalipseMusicUploads.registerSong({
     duration = 186,
     artist = "Adèla",
     title = "Ain t In LA",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_9d57dc35ecf9",
+    sound = "AMU_9D57DC35ECF953A4",
+    duration = 200,
+    artist = "BTS",
+    title = "Dynamite",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_c71de6264268",
+    sound = "AMU_C71DE6264268AD35",
+    duration = 123,
+    artist = "Little Richard",
+    title = "Long Tall Sally",
 })
 
 ApocalipseMusicUploads.registerSong({
@@ -87,6 +135,22 @@ ApocalipseMusicUploads.registerSong({
     duration = 136,
     artist = "Mc Panico",
     title = "Novinha Sa",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_e961d5ef802e",
+    sound = "AMU_E961D5EF802EF33B",
+    duration = 243,
+    artist = "Jason Mraz",
+    title = "Im Yours",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_bc56d1790cd7",
+    sound = "AMU_BC56D1790CD75A1F",
+    duration = 280,
+    artist = "Chitaozinho e Xororo",
+    title = "Evidencias",
 })
 
 ApocalipseMusicUploads.registerSong({
