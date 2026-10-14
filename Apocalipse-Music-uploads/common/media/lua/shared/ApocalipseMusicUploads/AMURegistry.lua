@@ -10,6 +10,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_b4794d2b6aae",
+    sound = "AMU_B4794D2B6AAE968D",
+    duration = 168,
+    artist = "Ze Neto e Cristiano",
+    title = "Long Neck",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_70725e10e9ae",
     sound = "AMU_70725E10E9AE9999",
     duration = 206,
@@ -114,6 +122,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_8fc8198ff731",
+    sound = "AMU_8FC8198FF7317DB3",
+    duration = 205,
+    artist = "Bidesão",
+    title = "Pira Errada",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_974c19577010",
     sound = "AMU_974C195770100045",
     duration = 389,
@@ -143,6 +159,14 @@ ApocalipseMusicUploads.registerSong({
     duration = 243,
     artist = "Jason Mraz",
     title = "Im Yours",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_57d93e4a6ba4",
+    sound = "AMU_57D93E4A6BA4929E",
+    duration = 261,
+    artist = "Sampa Crew",
+    title = "Eterno Amor",
 })
 
 ApocalipseMusicUploads.registerSong({
