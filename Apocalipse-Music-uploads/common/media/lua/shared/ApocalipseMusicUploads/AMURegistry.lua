@@ -90,6 +90,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_db9d383111f9",
+    sound = "AMU_DB9D383111F9D554",
+    duration = 194,
+    artist = "Taylor Swift",
+    title = "Pink Clouding",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_875436b32966",
     sound = "AMU_875436B32966AE8F",
     duration = 234,
@@ -111,6 +119,14 @@ ApocalipseMusicUploads.registerSong({
     duration = 200,
     artist = "BTS",
     title = "Dynamite",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_e3609c476d02",
+    sound = "AMU_E3609C476D02C0AC",
+    duration = 210,
+    artist = "Drowning Pool",
+    title = "Bodies",
 })
 
 ApocalipseMusicUploads.registerSong({
