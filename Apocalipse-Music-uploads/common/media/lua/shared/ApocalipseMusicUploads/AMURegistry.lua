@@ -186,6 +186,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_681ec4fdc72d",
+    sound = "AMU_681EC4FDC72D6700",
+    duration = 250,
+    artist = "SFV",
+    title = "Balrog",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_bc56d1790cd7",
     sound = "AMU_BC56D1790CD75A1F",
     duration = 280,
