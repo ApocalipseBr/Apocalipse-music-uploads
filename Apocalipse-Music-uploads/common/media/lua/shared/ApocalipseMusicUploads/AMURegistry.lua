@@ -146,6 +146,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_52565dd5978f",
+    sound = "AMU_52565DD5978FC316",
+    duration = 191,
+    artist = "Alex e Ronaldo",
+    title = "Sexta Feira Sua Linda",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_974c19577010",
     sound = "AMU_974C195770100045",
     duration = 389,
