@@ -18,6 +18,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_b6c097766380",
+    sound = "AMU_B6C0977663809D55",
+    duration = 245,
+    artist = "KATSEYE",
+    title = "UNLOVEU",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_70725e10e9ae",
     sound = "AMU_70725E10E9AE9999",
     duration = 206,
@@ -138,6 +146,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_1404c70879eb",
+    sound = "AMU_1404C70879EB0EFB",
+    duration = 223,
+    artist = "Hanson",
+    title = "Save Me",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_8fc8198ff731",
     sound = "AMU_8FC8198FF7317DB3",
     duration = 205,
@@ -207,6 +223,14 @@ ApocalipseMusicUploads.registerSong({
     duration = 280,
     artist = "Chitaozinho e Xororo",
     title = "Evidencias",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_99207167bf08",
+    sound = "AMU_99207167BF080D5B",
+    duration = 225,
+    artist = "PENTAGON",
+    title = "접근금지",
 })
 
 ApocalipseMusicUploads.registerSong({
