@@ -106,6 +106,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_3e0168db66a3",
+    sound = "AMU_3E0168DB66A3EC08",
+    duration = 217,
+    artist = "pixies",
+    title = "Wheres Is My Mind",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_875436b32966",
     sound = "AMU_875436B32966AE8F",
     duration = 234,
