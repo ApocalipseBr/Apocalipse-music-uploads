@@ -82,6 +82,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_9df7afb27fc5",
+    sound = "AMU_9DF7AFB27FC5CBED",
+    duration = 78,
+    artist = "Lulz Silva",
+    title = "INTANKAVEL O BOSTIL",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_5bc2f2b3b979",
     sound = "AMU_5BC2F2B3B979009B",
     duration = 229,
