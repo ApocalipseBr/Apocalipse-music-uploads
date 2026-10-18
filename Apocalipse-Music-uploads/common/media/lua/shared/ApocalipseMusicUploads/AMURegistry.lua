@@ -42,6 +42,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_81914336ca32",
+    sound = "AMU_81914336CA321F5C",
+    duration = 189,
+    artist = "black bear",
+    title = "hot girl bummer",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_a810b394babb",
     sound = "AMU_A810B394BABB043B",
     duration = 339,
@@ -106,6 +114,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_21a352aca0d0",
+    sound = "AMU_21A352ACA0D0E9C4",
+    duration = 141,
+    artist = "myla",
+    title = "you broke my heart",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_3e0168db66a3",
     sound = "AMU_3E0168DB66A3EC08",
     duration = 217,
@@ -167,6 +183,14 @@ ApocalipseMusicUploads.registerSong({
     duration = 205,
     artist = "Bidesão",
     title = "Pira Errada",
+})
+
+ApocalipseMusicUploads.registerSong({
+    id = "amu_song_467332202810",
+    sound = "AMU_46733220281066F9",
+    duration = 261,
+    artist = "House Of The Rising Sun",
+    title = "The  Animals",
 })
 
 ApocalipseMusicUploads.registerSong({
