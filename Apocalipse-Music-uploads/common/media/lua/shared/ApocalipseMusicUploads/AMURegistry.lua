@@ -226,6 +226,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_5062fa76bbf9",
+    sound = "AMU_5062FA76BBF99403",
+    duration = 259,
+    artist = "Lady Gaga",
+    title = "Judas",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_b8a7bba71afc",
     sound = "AMU_B8A7BBA71AFCDC58",
     duration = 136,
