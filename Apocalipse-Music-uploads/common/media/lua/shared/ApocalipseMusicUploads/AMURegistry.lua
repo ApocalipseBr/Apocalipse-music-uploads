@@ -266,6 +266,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_fe44591750ae",
+    sound = "AMU_FE44591750AE392C",
+    duration = 263,
+    artist = "Amado Batista",
+    title = "Seresteiro das noites",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_bc56d1790cd7",
     sound = "AMU_BC56D1790CD75A1F",
     duration = 280,
