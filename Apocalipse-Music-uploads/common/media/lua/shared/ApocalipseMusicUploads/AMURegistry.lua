@@ -290,6 +290,14 @@ ApocalipseMusicUploads.registerSong({
 })
 
 ApocalipseMusicUploads.registerSong({
+    id = "amu_song_968b045aaa0a",
+    sound = "AMU_968B045AAA0A74AF",
+    duration = 228,
+    artist = "Radiohead",
+    title = "No Surprises",
+})
+
+ApocalipseMusicUploads.registerSong({
     id = "amu_song_7b3ed92971ea",
     sound = "AMU_7B3ED92971EACC78",
     duration = 206,
